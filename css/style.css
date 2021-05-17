@@ -18,11 +18,14 @@ ul {
 
 /* loogotip */
 .logo {
-  color: var(--accent-color);
+  color: #000000;
   font-family: raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+.logo-color {
+  color: var(--accent-color);
 }
 
 /* site-nav */
