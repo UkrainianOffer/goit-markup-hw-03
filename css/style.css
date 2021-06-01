@@ -23,6 +23,10 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  width: 145px;
+  height: 31;
+  margin-left: 215px;
+  padding-top: 24px;
 }
 .logo-color {
   color: var(--accent-color);
@@ -36,6 +40,13 @@ ul {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.test {
+  width: 49px;
+  height: 16px;
+  margin-left: 453px;
+  border-top: 32px;
 }
 
 .site-nav .link:hover,
