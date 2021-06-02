@@ -6,6 +6,17 @@
   --primary-bgc-color: #f5f4fa;
 }
 /* вторичный цвет боди #F5F4FA */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
@@ -14,11 +25,23 @@ body {
 }
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
-/* loogotip */
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ==========L O G O========== */
 .logo {
   color: #000000;
   font-family: raleway, cursive;
@@ -30,19 +53,12 @@ ul {
   color: var(--accent-color);
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.contacts,
+/* .contacts,
 .menu-item {
   display: flex;
-}
+} */
 
-/* site-nav */
+/* ==========SITE - NAV========== */
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -50,18 +66,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-}
-
-.navigation {
-  padding-bottom: 24px;
-  padding-top: 24px;
-}
-.menu-item {
-  display: inline-block;
-  margin-left: 50px;
-}
-.navigation .container {
-  display: flex;
 }
 
 .site-nav .link:hover,
@@ -75,7 +79,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* contacts */
+/* ==========C O N T A C T S - l I S T========== */
 
 .contacts-list {
   color: var(--primary-text-color);
@@ -85,20 +89,19 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contacts {
-  margin-left: auto;
-}
 
 .contacts-list:hover {
   color: var(--accent-color);
 }
 
-/* hero */
+/* ==========H E R O========== */
 .hero {
+  background-color: #2f303a;
+  height: 600px;
 }
 
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -108,7 +111,7 @@ ul {
   text-transform: uppercase;
 }
 
-/* features list */
+/* ==========FEATURES - LIST========== */
 .features-list {
   color: var(--title-text-color);
   font-weight: 700;
@@ -122,7 +125,7 @@ ul {
   line-height: 1.71;
 }
 
-/* section title*/
+/* ==========SECTION - TITLE========== */
 .section-title {
   color: var(--title-text-color);
   font-weight: bold;
@@ -131,7 +134,7 @@ ul {
   text-align: center;
 }
 
-/* team list */
+/* ==========TEAM - LIST========== */
 .team-list {
   color: var(--title-text-color);
   font-weight: 500;
@@ -147,8 +150,8 @@ ul {
 .works {
   background-color: #f5f4fa;
 }
+/* ==========PROJECT-LIST========== */
 
-/* project-list */
 .project-list {
   color: var(--title-text-color);
   font-weight: 700;
@@ -163,11 +166,7 @@ ul {
   line-height: 1.87;
 }
 
-/* button */
-/* .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-bgc-color);
-} */
+/* ==========B U T T O N========== */
 
 .button.primary {
   color: var(--primary-white-color);
@@ -192,7 +191,7 @@ ul {
 button {
   cursor: pointer;
 }
-
+/* ==========A D R E S S========== */
 .adress {
   color: #ffffff;
   font-weight: 400;
