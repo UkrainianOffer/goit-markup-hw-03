@@ -68,6 +68,10 @@ img {
   text-decoration: none;
 }
 
+.site-nav {
+  display: flex;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link:active {
@@ -98,6 +102,7 @@ img {
 .hero {
   background-color: #2f303a;
   height: 600px;
+  text-align: center;
 }
 
 .hero-title {
@@ -109,6 +114,8 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
+  height: 120px;
 }
 
 /* ==========FEATURES - LIST========== */
@@ -176,6 +183,7 @@ img {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  margin-top: 30px;
 }
 .button.secondary {
   color: var(--title-text-color);
