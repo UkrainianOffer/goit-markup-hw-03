@@ -30,7 +30,6 @@ ul {
   padding-left: 0;
 }
 
-
 img {
   display: block;
 }
@@ -116,6 +115,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-mail {
@@ -125,6 +125,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 50px;
+  text-decoration: none;
 }
 
 .header-mail:hover,
@@ -343,6 +344,7 @@ button {
   letter-spacing: 0.02em;
   display: block;
   padding-bottom: 9px;
+  text-decoration: none;
 }
 .footer-tel {
   color: var(--primary-text-color);
@@ -350,6 +352,7 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .logo-footer {
