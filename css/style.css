@@ -30,8 +30,13 @@ ul {
   padding-left: 0;
 }
 
+
 img {
   display: block;
+}
+
+.list {
+  list-style: none;
 }
 
 .container {
@@ -100,6 +105,10 @@ img {
 }
 
 /* ==========C O N T A C T S - l I S T========== */
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
 
 .header-tel {
   color: var(--primary-text-color);
@@ -115,7 +124,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-left: auto;
   margin-right: 50px;
 }
 
@@ -131,10 +139,13 @@ img {
 
 /* ==========H E R O========== */
 .hero {
+  background-color: #2f303a;
+  height: 600px;
+  padding-top: 100px;
 }
 
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -145,7 +156,7 @@ img {
   width: 696px;
   height: 120px;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 90px;
   margin-left: 250px;
 }
 
@@ -159,6 +170,15 @@ img {
 }
 .features {
   margin-top: 76px;
+}
+.features-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  width: 270px;
+  height: 75px;
+  padding-top: 10px;
 }
 
 .features-list {
@@ -202,6 +222,9 @@ img {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+.team-works {
+  background-color: #f5f4fa;
+}
 
 .section-item {
   display: flex;
@@ -209,9 +232,11 @@ img {
 }
 .section-img:not(:last-child) {
   margin-right: 30px;
-  margin-top: 50px;
 }
 
+.section-img {
+  margin-top: 50px;
+}
 .team-list .specialty {
   font-weight: 400;
   font-size: 16px;
@@ -232,6 +257,10 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+.project-img {
+  margin-bottom: 20px;
 }
 
 .project {
@@ -246,12 +275,6 @@ img {
 }
 .project-element:nth-child(3n) {
   margin-right: 0;
-}
-
-.project-list . {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
 }
 
 /* ==========B U T T O N========== */
@@ -299,13 +322,18 @@ button {
 /* ==========A D R E S S========== */
 .adress {
   color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 /* ==========F O O T E R========== */
-.footer {
+.bgc-footer {
   background-color: #2f303a;
+  height: 252px;
 }
 .footer-mail {
   color: var(--primary-text-color);
@@ -314,6 +342,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: block;
+  padding-bottom: 9px;
 }
 .footer-tel {
   color: var(--primary-text-color);
@@ -329,4 +358,6 @@ button {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  display: block;
+  padding-top: 60px;
 }
