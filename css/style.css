@@ -264,6 +264,8 @@ img {
 }
 
 .portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-list {
@@ -275,7 +277,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  margin-bottom: 94px;
 }
 .project-element {
   width: 370px;
@@ -314,8 +315,8 @@ img {
 }
 .btn-box {
   display: flex;
-  padding-top: 94px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
