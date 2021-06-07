@@ -142,7 +142,7 @@ img {
 .hero {
   background-color: #2f303a;
   height: 600px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -155,10 +155,8 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-  height: 120px;
   align-items: center;
-  margin-top: 90px;
-  margin-left: 250px;
+  margin: 0 auto;
 }
 
 /* ==========FEATURES - LIST========== */
@@ -170,7 +168,7 @@ img {
   text-transform: uppercase;
 }
 .features {
-  margin-top: 76px;
+  padding-top: 94px;
 }
 .features-p {
   font-style: normal;
@@ -195,14 +193,17 @@ img {
 }
 
 /* ==========SECTION - TITLE========== */
+.section {
+  padding-top: 94px;
+}
+
 .section-title {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .img-item {
@@ -225,6 +226,7 @@ img {
 }
 .team-works {
   background-color: #f5f4fa;
+  padding-top: 94px;
 }
 
 .section-item {
@@ -236,7 +238,6 @@ img {
 }
 
 .section-img {
-  margin-top: 50px;
 }
 .team-list .specialty {
   font-weight: 400;
@@ -247,9 +248,6 @@ img {
   margin-bottom: 94px;
 }
 
-/* .works {
-  background-color: #f5f4fa;
-} */
 /* ==========PROJECT-LIST========== */
 
 .project-list {
@@ -261,7 +259,11 @@ img {
   margin-bottom: 4px;
 }
 .project-img {
-  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.portfolio-list {
+  padding: 20px;
 }
 
 .project {
@@ -307,7 +309,8 @@ img {
 .btn-box {
   display: flex;
   margin-top: 94px;
-  margin-left: 295px;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
@@ -334,7 +337,8 @@ button {
 /* ==========F O O T E R========== */
 .bgc-footer {
   background-color: #2f303a;
-  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-mail {
   color: var(--primary-text-color);
