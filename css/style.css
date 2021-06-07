@@ -276,7 +276,7 @@ img {
 .project {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: -30px;
 }
 .project-element {
   width: 370px;
